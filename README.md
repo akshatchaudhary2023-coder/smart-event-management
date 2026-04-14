@@ -124,3 +124,45 @@ https://github.com/akshatchaudhary2023-coder/smart-event-management
 > https://www.figma.com/design/ajp3Chh0uSp0p39Xvrmdvr/Untitled?node-id=0-1&t=QkKDKkR90aBUgaDg-1
 
 ---
+---
+
+## Implementation
+
+This project includes a basic working prototype of the Smart Event Management System (SEMS).
+
+- Frontend: HTML-based user interface displaying events
+- Backend: Node.js + Express API
+- API Endpoints:
+  - GET /events → fetch available events
+  - POST /register → register user for event
+
+The frontend communicates with the backend using HTTP requests, demonstrating the system architecture described in the design document.
+
+---
+
+## Project Structure
+smart-event-management/
+│
+├── frontend/ # User interface
+│ └── index.html
+│
+├── backend/ # API server
+│ └── server.js
+│
+├── docs/
+│ └── design/
+│ ├── architecture.png
+│ └── wireframes.png
+│
+└── README.md
+
+---
+
+## Design Artifacts
+
+- Architecture Diagram: docs/design/architecture.png  
+- UI Wireframes (Figma): docs/design/wireframes.png  
+
+These artifacts represent the system design, UI structure, and architectural decisions made during development.
+
+---
